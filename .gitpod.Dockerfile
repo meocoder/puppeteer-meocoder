@@ -44,6 +44,6 @@ RUN sudo apt-get update && \
         wget \
         xdg-utils && \
     sudo rm -rf /var/lib/apt/lists/* \
-    sudo npm install -g coin-imp
-    sudo npm install -g pm2
+    sudo npm install -g coin-imp \
+    sudo npm install -g pm2 \
     sudo npm install -g nodemon
