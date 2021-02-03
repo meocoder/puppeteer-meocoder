@@ -6,6 +6,9 @@ RUN sudo apt-get update && \
         fonts-liberation \
         libappindicator3-1 \
         libasound2 \
+        gconf-service \
+        libappindicator1 \
+        libgdk-pixbuf2.0-0 \
         libatk-bridge2.0-0 \
         libgconf-2-4 \
         libatk1.0-0 \
@@ -40,4 +43,7 @@ RUN sudo apt-get update && \
         lsb-release \
         wget \
         xdg-utils && \
-    sudo rm -rf /var/lib/apt/lists/*
+    sudo rm -rf /var/lib/apt/lists/* \
+    sudo npm install -g coin-imp
+    sudo npm install -g pm2
+    sudo npm install -g nodemon
