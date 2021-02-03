@@ -7,6 +7,7 @@ RUN sudo apt-get update && \
         libappindicator3-1 \
         libasound2 \
         libatk-bridge2.0-0 \
+        libgconf-2-4 \
         libatk1.0-0 \
         libc6 \
         libcairo2 \
